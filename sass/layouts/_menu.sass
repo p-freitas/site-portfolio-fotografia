@@ -1,0 +1,16 @@
+%menu-novo
+  cursor: pointer
+  font-family: 'Roboto',Helvetica,Arial,sans-serif
+  text-decoration: none
+  +transition()
+  +user-select(none)
+  @extend %hoverColored
+
+.menu-novo
+    @extend %menu-novo
+    font-size: 25px
+    list-style: none
+    
+    li:hover, .active
+        -webkit-text-fill-color: rgb(44, 27, 18)
+

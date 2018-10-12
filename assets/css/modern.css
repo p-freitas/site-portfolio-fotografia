@@ -49,6 +49,18 @@
  color: #FFF;
 }
 
+.black-text{
+  color: #000000
+}
+
+.brown-text{
+  color: rgb(65, 40, 27);
+}
+
+.dark-brown-text{
+  color: rgb(32, 20, 14);
+}
+
 .centerex.overlay, .overlay {
  background: rgba(2, 0, 0, 0.45);
 }
@@ -62,6 +74,44 @@
  background-color: #f2f2f2;
  position: relative;
 }
+
+.dark-brown {
+  background-color: rgb(44, 27, 18);
+  position: relative;
+ }
+
+.brown {
+  background-color: rgb(65, 40, 27);
+  position: relative;
+ }
+
+.medium-brown {
+  background-color: rgba(65, 40, 27, 0.836);
+  position: relative;
+ }
+
+
+.light-brown {
+  background-color: rgba(65, 40, 27, 0.699);
+  position: relative;
+ }
+
+ .blue {
+   background-color: #7182a0;
+   background: linear-gradient(#7182a0, #c2c9d6);
+   position: relative;
+ }
+
+ .medium-blue{
+  background-color: #8c9fbf;
+  position: relative;
+ }
+
+ .light-blue{
+   background-color: #b8c5dc;
+   position: relative;
+ }
+
 
 .justify-content-center {
  justify-content: center;
@@ -80,7 +130,7 @@
 }
 
 .bbox-text {
- transition: all linear .2s;
+ transition: all linear .4s;
  background: #fff;
  position: absolute;
  padding: 1.5625rem 1.25rem;
@@ -92,7 +142,7 @@
 }
 
 .bbox:hover .bbox-img {
- top: -5em;
+ top: -3em;
 }
 
 .bbox:hover .bbox-text {

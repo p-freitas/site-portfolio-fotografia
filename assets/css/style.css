@@ -120,6 +120,24 @@ button {
   background-color: #DEDEDE;
   color: #000000; }
 
+.menu-novo {
+  cursor: pointer;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.menu-novo {
+  font-size: 25px;
+  list-style: none; }
+  .menu-novo li:hover, .menu-novo .active {
+    -webkit-text-fill-color: #2c1b12; }
+
 .banner {
   padding: 0px;
   position: relative;
@@ -134,7 +152,7 @@ button {
     top: 0; }
   .banner .cover {
     background-position: right;
-    background-attachment: relative;
+    background-attachment: fixed;
     transform: scaleY(1.1);
     position: absolute;
     width: 100%;
@@ -149,8 +167,7 @@ button {
     z-index: 1;
     position: relative; }
     .banner .centerex h1 {
-      color: #FFF;
-      font-size: 40px;
+      font-size: 50px;
       text-transform: capitalize; }
     .banner .centerex button {
       border: 0px;
@@ -227,15 +244,48 @@ button {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
+  user-select: none;
+  z-index: 2; }
 
 .btn {
-  background-color: #6ACF04;
+  background-color: #2979ff;
   margin: 15px 0;
   padding: 6px 18px;
-  font-size: 15px; }
+  font-size: 15px; 
+  z-index: 2;}
   .btn:hover, .btn:focus {
     background-color: #D1D1D1; }
+
+
+.btn2 {
+      border: 1px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      color: #FFF;
+      cursor: pointer;
+      font-family: "Roboto", Helvetica, Arial, sans-serif;
+      text-decoration: none;
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      transition: all 0.2s;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      z-index: 1;
+    float: right; }
+    
+.btn2 {
+      background-color: #2979ff;
+      margin: 15px 0;
+      padding: 6px 18px;
+      font-size: 15px; 
+      z-index: 1;
+      float: right;}
+      .btn:hover, .btn:focus {
+        background-color: #D1D1D1; }
 
 .tag {
   border: 1px solid;
@@ -721,33 +771,33 @@ button {
   background: #333;
   color: #FFF; }
 
-.success.btn:hover, .success.btn:focus {
+.success.menu-novo:hover, .success.btn:hover, .success.menu-novo:focus, .success.btn:focus {
   background-color: #5a9a1e !important; }
-.success.btn:hover, .success.btn:focus {
+.success.menu-novo:hover, .success.btn:hover, .success.menu-novo:focus, .success.btn:focus {
   color: #FFF !important; }
-.danger.btn:hover, .danger.btn:focus {
+.danger.menu-novo:hover, .danger.btn:hover, .danger.menu-novo:focus, .danger.btn:focus {
   background-color: #e9351e !important; }
-.danger.btn:hover, .danger.btn:focus {
+.danger.menu-novo:hover, .danger.btn:hover, .danger.menu-novo:focus, .danger.btn:focus {
   color: #FFF !important; }
-.info.btn:hover, .info.btn:focus {
+.info.menu-novo:hover, .info.btn:hover, .info.menu-novo:focus, .info.btn:focus {
   background-color: #2597b8 !important; }
-.info.btn:hover, .info.btn:focus {
+.info.menu-novo:hover, .info.btn:hover, .info.menu-novo:focus, .info.btn:focus {
   color: #FFF !important; }
-.warning.btn:hover, .warning.btn:focus {
+.warning.menu-novo:hover, .warning.btn:hover, .warning.menu-novo:focus, .warning.btn:focus {
   background-color: #d18112 !important; }
-.warning.btn:hover, .warning.btn:focus {
+.warning.menu-novo:hover, .warning.btn:hover, .warning.menu-novo:focus, .warning.btn:focus {
   color: #FFF !important; }
-.dark.btn:hover, .dark.btn:focus {
+.dark.menu-novo:hover, .dark.btn:hover, .dark.menu-novo:focus, .dark.btn:focus {
   background-color: #1f1f1f !important; }
-.dark.btn:hover, .dark.btn:focus {
+.dark.menu-novo:hover, .dark.btn:hover, .dark.menu-novo:focus, .dark.btn:focus {
   color: #FFF !important; }
-.dark.outline.btn:hover, .dark.outline.btn:focus, .dark.clean.btn:hover, .dark.clean.btn:focus {
+.dark.outline.menu-novo:hover, .dark.outline.btn:hover, .dark.outline.menu-novo:focus, .dark.outline.btn:focus, .dark.clean.menu-novo:hover, .dark.clean.btn:hover, .dark.clean.menu-novo:focus, .dark.clean.btn:focus {
   color: #333 !important; }
-.white.outline.btn {
+.white.outline.menu-novo, .white.outline.btn {
   color: #FFF; }
-  .white.outline.btn:hover, .white.outline.btn:focus {
+  .white.outline.menu-novo:hover, .white.outline.btn:hover, .white.outline.menu-novo:focus, .white.outline.btn:focus {
     background-color: #ebebeb !important; }
-  .white.outline.btn:hover, .white.outline.btn:focus {
+  .white.outline.menu-novo:hover, .white.outline.btn:hover, .white.outline.menu-novo:focus, .white.outline.btn:focus {
     color: #333 !important; }
 
 .hidden {
